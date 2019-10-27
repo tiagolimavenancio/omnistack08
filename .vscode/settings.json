@@ -1,0 +1,17 @@
+{
+    "folders": [],    
+    "settings": {
+        "emmet.showExpandedAbbreviation": "never",
+        "emmet.triggerExpansionOnTab": true,
+        "emmet.showSuggestionsAsSnippets": true,
+        "editor.snippetSuggestions": "top",
+        "emmet.syntaxProfiles": { "javascript": "jsx" },
+        "emmet.includeLanguages": {
+            "javascript": "javascriptreact",
+            "vue-html": "html",
+            "razor": "html",
+            "plaintext": "jade"
+        }
+    }
+}
+    
