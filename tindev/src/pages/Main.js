@@ -9,8 +9,9 @@ import like from '../assets/like.png';
 import dislike from '../assets/dislike.png';
 
 export default function Main({ navigation }) {
-    const id = navigation.getParams('user')
-    const [ users, setUsers] = useState([])
+    
+    const id = navigation.getParams('user');
+    const [ users, setUsers] = useState([]);
 
     useEffect(() => {
         async function loadUsers() {
@@ -32,7 +33,7 @@ export default function Main({ navigation }) {
             headers: { user: id }
         })
 
-        setUsers(rest))
+        setUsers(rest)
     }
 
     async function handleDislike() {
